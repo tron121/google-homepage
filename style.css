@@ -1,0 +1,16 @@
+﻿/* CSS Style Sheet*/
+
+li{
+    display: inline;
+}
+
+.topleft{
+    float: left;
+}
+
+.topright{
+    float: right;
+}
+
+
+
