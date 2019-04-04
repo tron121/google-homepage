@@ -6,23 +6,21 @@ li{
 
 body{
     font-family: Arial, sans-serif;
-    font-size: 12px;
+    font-size: 13px;
 }
 
 #center{
-    width: 580px;
+    width: 500px;
+    height: 355px;
     margin: 0 auto;
     text-align: center;
 }
 
-/*#logo {
-  width: 272px;
-  height: 92px;
-  margin: 0 auto;
-    
+#navbar{
+    /*line-height: 24px;
+    text-align: right;
+    vertical-align: middle;*/
 }
-*/
-
 
 
 footer{
@@ -61,11 +59,26 @@ a:hover{
 
 .topright, .bottomright{
     float: right;
+    
 }
 
-.signin{
-    color: #4387fd;
+#signin{
+    background-color: #4285f4;
+    box-sizing: border-box;
+    font-weight: bold;
+    border: 1px solid #4285f4;
+    color: #fff;
+    cursor: default;
+    line-height: 28px;
+    padding: 0 12px;
+    border-radius: 2px;
+    
 }
+
+#signin:hover{
+    box-shadow: 0 1px 0 rgba(0,0,0,.15);    
+}
+
 
 
 
